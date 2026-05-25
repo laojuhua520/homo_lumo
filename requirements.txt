@@ -1,11 +1,11 @@
-# 安装依赖列表
+#you must use orca to get molecular orbital. so try to find the relationship between Eg and conjugate structure size, and the electronic effect of substituents on diamine HOMO energy. Dont foeget your job
 
-系统/软件依赖：
+software
 - OpenMPI >= 4.1.8
 - Orca >= 6.1.1
 - Multiwfn >= 2026.4.10
 
-Python 依赖：
+Python requirement：
 - rdkit
 - numpy
 - pandas
@@ -14,7 +14,6 @@ Python 依赖：
 - uvicorn
 - unrar
 
-说明：
-- OpenMPI 建议通过操作系统包管理器或 conda 安装
-- Orca 和 Multiwfn 不是 pip 包，需要从官网下载并安装
+#
+- opnempi, Orca and Multiwfn can be installed by the compressed files. which you can find in /home/homo_lumo
 - RDKit 推荐通过 conda 安装：conda install -c conda-forge rdkit
